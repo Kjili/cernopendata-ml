@@ -1,0 +1,47 @@
+######################## 1. Meeting Notes ##############################
+
+Next Objectives:
+
+1. Find out what their dataset is doing (clustering, neural networks), get a sample dataset (need data and data description)
+2. Figure out some more about the requirements (2D slices, filters, plots, ...?)
+3. Create a task list
+Also do some background reading
+
+Literature Review:
+
+- What people are already doing in physics
+- Background on ML Visualization
+
+Research Parts:
+
+User Tests: Feature reduction partly based on user input (features the users are interested in should be higher rated)
+-> automatic ones with a task set given by machine learning group to cover what they want
+-> physicists and non-physicists as testers (example target group are ML people not familiar with physics concepts)
+
+
+
+######################### Etherpad Notes ###############################
+
+Implementation Part:
+
+event visualisation
+??
+
+
+Research Part:
+
+probably user experience related
+- include surveys
+- focus would most likely be understandability of what the visualisation shows
+
+I think one part of this can certainly look at the user experience.  
+To start,  we should get a task list. So the operations one would like to perform on the data. Then, we create the visualisations that can help in making those interactions possible, and test with users. 
+
+One thing which I discussed briefly with Tom is the creation of 2d slices of different parts of the detector. Or the visual filtering of points based on particular attributes of an event. There are many other options too which would also aid machine learning,  e.g. Discovering the importance of various features in the data for certain classification tasks.
+One problem with the vis techniques is that they don't really scale when showing many features of events. We could investigate new ways of showing this. Couldn't the 2d slices be one possibility to do that?
+
+
+Literature Review:
+
+some papers by their group possibly?
+something about the open data visualisations already existent?
